@@ -10,7 +10,7 @@
     <script src="js/SportsClock.js"></script>
 </head>
 <body ng-controller="TestCtrl">
-    <input type="image" src="img/Football.gif" name="ball" width="60" height="60" ng-click=" home = home + 1" ng-init="home=0">
+    <input id="goalImage" type="image" src="img/Football.gif" name="ball" ng-click=" home = home + 1" ng-init="home=0">
         Hjemme
     <span>
         : {{home}}
