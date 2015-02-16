@@ -1,4 +1,4 @@
-var sportsClockApp = angular.module('sportsClockApp', ['timer']);
+var sportsClockApp = angular.module('sportsClockApp', []);
 
 sportsClockApp.controller('TestCtrl', function ($scope) {
     
